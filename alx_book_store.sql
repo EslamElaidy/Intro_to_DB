@@ -1,6 +1,7 @@
 CREATE DATABASE IF NOT EXISTS alx_book_store
 
-CREATE TABLE Books ( book_id (Primary Key)
+CREATE TABLE Books (
+book_id (Primary Key)
 title VARCHAR(130)
 author_id (Foreign Key referencing Authors table)
 price DOUBLE
